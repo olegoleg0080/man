@@ -1,2 +1,12 @@
 @import './common';
-@import './example';
+@import './header.scss';
+@import './reset.scss';
+@import './school-tier.scss';
+.hidden{
+    display: none;
+}
+.container{
+    max-width: 344px;
+    margin: 0 auto;
+    margin-top: 24px;
+}

@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+html *,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li {
+  font-family: Manrope;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', 'Sans-Serif';
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+}

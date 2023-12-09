@@ -1,0 +1,54 @@
+.school__tier-title {
+  color: #1f2022;
+  font-family: Manrope;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.table__item{
+  margin-top: 24px;
+}
+.class-list {
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 36px;
+  background: #fff;
+  box-shadow: 6px 6px 36px 0px rgba(213, 212, 212, 0.08);
+  &__parallel {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+}
+.class-parallel {
+  &__name {
+    text-wrap: nowrap;
+    box-sizing: content-box;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 36px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
+    &:hover {
+      border-radius: 36px;
+      background: var(--secondary, #495af5);
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
+      color: #fff;
+    }
+    
+    color: #1f2022;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.18px;
+  }
+}

@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MAH</title>
-</head>
-<body>
-  <header>
-    <include src="./main-page-section/header.html"></include>
-    <include src="./main-page-section/primary-school.html"></include>
-    <include src="./main-page-section/secondary-school.html"></include>
-    <include src="./main-page-section/high-school.html"></include>
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Lato&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+  </head>
+  <body>
+    <header>
+      <include src="./main-page-section/header.html"></include>
+    </header>
+    <div class="container">
+      <main class="main">
+        <ul class="main__table table">
+          <li class="table__item">
+            <include src="./main-page-section/primary-school.html"></include>
+          </li>
+          <li class="table__item">
+            <include src="./main-page-section/secondary-school.html"></include>
+          </li>
+          <li class="table__item">
+            <include src="./main-page-section/high-school.html"></include>
+          </li>
+        </ul>
+      </main>
+    </div>
+  </body>
 </html>
