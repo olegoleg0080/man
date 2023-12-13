@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "man",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Zetonen.github.io/parcel-template",
+  "homepage": "https://github.com/olegoleg0080/man",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-template/"
+    "build": "parcel build src/*.html --public-url /man/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zetonen/parcel-project-template.git"
+    "url": "git+https://github.com/olegoleg0080/man.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zetonen/parcel-template/issues"
+    "url": "https://github.com/olegoleg0080/man/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
