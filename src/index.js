@@ -2,12 +2,12 @@ const refs = {
     modalOpen: document.querySelector('.burger'),
     burgerModal: document.querySelector('.burger-modal'),
 }
-refs.modalOpen.addEventListener('click', openModal(refs.burgerModal))
-function openModal(modalName) {
-    if (modalName.classList.contains('hidden')) {
-        modalName.classList.remove('hidden');
+refs.modalOpen.addEventListener('click', openModal)
+function openModal() {
+    if (refs.burgerModal.classList.contains('hidden')) {
+        refs.burgerModal.classList.remove('hidden');
     }
     else{
-        modalName.classList.add('hidden');
+        refs.burgerModal.classList.add('hidden');
     }
 }
