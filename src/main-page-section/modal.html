@@ -1,22 +1,24 @@
 <div class="burger-modal modal hidden">
-    <button class="modal__close">
-        <svg class="modal__close-svg">
-            <use href="./svg/close.svg#close"></use>
-        </svg>
-    </button>
-    <div class="modal__block">
-        <h1 class="modal__block-title">Класи</h1>
-        <div class="modal__group">
-            <h1 class="modal__block-title">Групи</h1>
-            <button class="modal__block-version">Основна</button>
-            <button class="modal__block-version">Підготовча</button>
-            <button class="modal__block-version">Спеціальна</button>
-            <button class="modal__block-version">Звільнені</button>
-        </div>
-        <div class="modal__vactinayion">
-            <h1 class="modal__block-title">Прививки</h1>
-            <button class="modal__block-version">Щеплені</button>
-            <button class="modal__block-version">Не щеплені</button>
+    <div class="modal__container" id="modal__container">
+        <button class="modal__close">
+            <svg class="modal__close-svg">
+                <use href="./svg/close.svg#close"></use>
+            </svg>
+        </button>
+        <div class="modal__block">
+            <button class="modal__block-title classes">Класи</button>
+            <button class="modal__block-title">Групи</button>
+            <div class="modal__group">
+                <button class="modal__block-version">Основна</button>
+                <button class="modal__block-version">Підготовча</button>
+                <button class="modal__block-version">Спеціальна</button>
+                <button class="modal__block-version">Звільнені</button>
+            </div>
+            <button class="modal__block-title">Прививки</button>
+            <div class="modal__vactinayion">
+                <button class="modal__block-version">Щеплені</button>
+                <button class="modal__block-version">Не щеплені</button>
+            </div>
         </div>
     </div>
 </div>

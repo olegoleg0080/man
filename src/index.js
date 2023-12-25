@@ -1,13 +1,16 @@
 const refs = {
     modalOpen: document.querySelector('.burger'),
     burgerModal: document.querySelector('.burger-modal'),
+    modalClose: document.querySelector('.modal__close'),
 }
-refs.modalOpen.addEventListener('click', openModal)
-function openModal() {
-    if (refs.burgerModal.classList.contains('hidden')) {
-        refs.burgerModal.classList.remove('hidden');
-    }
-    else{
+refs.modalOpen.addEventListener('click', () => {
+    refs.burgerModal.classList.remove('hidden');
+})
+refs.modalClose.addEventListener('click', () => {
+    refs.burgerModal.classList.add('hidden');
+})
+refs.burgerModal.addEventListener('click', (e) => {
+    if (!e.target.closest('.modal__container')) {
         refs.burgerModal.classList.add('hidden');
     }
-}
+});
