@@ -1,0 +1,2 @@
+var refs={modalOpen:document.querySelector(".burger"),burgerModal:document.querySelector(".burger-modal"),modalClose:document.querySelector(".modal__close")};refs.modalOpen.addEventListener("click",(function(){refs.burgerModal.classList.remove("hidden")})),refs.modalClose.addEventListener("click",(function(){refs.burgerModal.classList.add("hidden")})),refs.burgerModal.addEventListener("click",(function(e){e.target.closest(".modal__container")||refs.burgerModal.classList.add("hidden")}));
+//# sourceMappingURL=index.f6c2ef66.js.map
