@@ -1,0 +1,77 @@
+.card {
+  &__header {
+    display: flex;
+    width: 455px;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 36px 36px 0px 0px;
+    background: #495af5;
+
+    color: #fff;
+  }
+  &__class {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  &__download {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+  }
+  &__download-text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  &__download-icon {
+    width: 24px;
+    height: 24px;
+  }
+  &__table {
+    display: flex;
+    padding: 16px;
+    width: 455px;
+    align-items: flex-start;
+
+    background: #fff;
+    box-shadow: 6px 6px 36px 0px rgba(213, 212, 212, 0.08);
+  }
+  &__table-title {
+    color: #161616;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    padding: 10px;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+  &__table-data {
+    display: flex;
+    width: fit-content;
+    color: #161616;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 500;
+    line-height: 1.4;
+    align-items: center;
+    justify-content: center;
+  }
+  tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 423px;
+    &.card__table-item:hover {
+      background: #d5d2ff;
+      cursor: pointer;
+    }
+  }
+  overflow: scroll;
+}
