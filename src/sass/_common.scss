@@ -1,1 +1,48 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+body{
+    position: relative;
+}
+.hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.container{
+    max-width: 344px;
+    margin: 0 auto;
+    &-m{
+        margin-top: 24px;
+    }
+    &-f{
+        display: flex;
+    }
+    &-r{
+        margin-right: 0;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+td,
+tr,
+th,
+button {
+  font-family: Manrope;
+}
+svg{
+    display: block;
+}
+
