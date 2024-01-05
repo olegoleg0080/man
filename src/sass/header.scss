@@ -64,3 +64,21 @@ header {
   column-gap: 8px;
   margin-left: 56px;
 }
+@media(max-width: 374px)  {
+  .logo {
+    @include responsive(margin-left, 57, 87, 319, 375);
+    color: #fff;
+    @include responsive(font-size, 13, 18, 319, 375);
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .support{
+    display: flex;
+    column-gap: 8px;
+    @include responsive(margin-left, 26, 56, 319, 375);
+  }
+  header {
+    @include responsive(padding-left, 0, 16, 319, 375);
+      @include responsive(padding-right, 0, 16, 319, 375);
+  }
+}

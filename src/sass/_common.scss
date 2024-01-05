@@ -1,4 +1,7 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+html{
+    width: 100%;
+}
 body{
     position: relative;
 }
@@ -17,11 +20,13 @@ body{
 .container{
     max-width: 344px;
     margin: 0 auto;
+    
     &-m{
         margin-top: 24px;
     }
     &-f{
         display: flex;
+        align-items: center;
     }
     &-r{
         margin-right: 0;

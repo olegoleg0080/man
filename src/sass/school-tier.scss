@@ -52,3 +52,38 @@
     letter-spacing: 0.18px;
   }
 }
+@media(max-width: 374px){
+  .school__tier-title {
+    color: #1f2022;
+    @include responsive(margin-bottom, 14, 16, 319, 375);
+    @include responsive(font-size, 14, 16, 319, 375);
+  }
+  .table__item{
+
+    @include responsive(margin-top, 20, 24, 319, 375);
+  }
+  .class-list {
+    display: inline-flex;
+    @include responsive(padding, 14, 16, 319, 375);
+    @include responsive(padding-top, 24, 32, 319, 375);
+    @include responsive(gap, 14, 16, 319, 375);
+    &__parallel {
+      @include responsive(gap, 20, 24, 319, 375);
+    }
+  }
+  .class-parallel {
+    &__name {
+      @include responsive(width, 40, 60, 319, 375);
+      @include responsive(padding-left, 16, 20, 319, 375);
+      @include responsive(padding-right, 16, 20, 319, 375);
+      @include responsive(padding-top, 8, 10, 319, 375);
+      @include responsive(padding-bottom, 8, 10, 319, 375);
+      @include responsive(gap, 8, 10, 319, 375);
+      
+      @include responsive(font-size, 16, 18, 319, 375);
+    }
+  }
+  .container{
+    @include responsive(max-width, 260, 344, 319, 375);
+  }
+}
