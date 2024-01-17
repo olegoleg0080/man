@@ -1,0 +1,50 @@
+.class__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 16px;
+  margin-top: 24px;
+  
+}
+.card {
+  &__className-class {
+    color: #1f2022;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  &__table-class {
+    width: 802px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  &__table-title-class {
+    color: #161616;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    padding: 10px;
+    width: inherit;
+    text-align: start;
+  }
+  &__table-item-class {
+    display: flex;
+    width: 770px;
+    align-items: center;
+    gap: 24px;
+  }
+  &__table-data-class {
+    width: inherit;
+    color: #161616;
+    max-width: 140px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  overflow: scroll;
+}

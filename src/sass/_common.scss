@@ -18,9 +18,10 @@ body{
     margin: -1px;
 }
 .container{
-    max-width: 344px;
     margin: 0 auto;
-    
+    &-w{
+        max-width: 344px;
+    }
     &-m{
         margin-top: 24px;
     }

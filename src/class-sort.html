@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MAH</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,23 +18,29 @@
         <include src="./components/header.html"></include>
       </div>
     </header>
-    <main class="main">
+    <main>
+      <div class="container container-m container-r container-w">
+        <div class="sort-select">
+          <p class="sort-select__text">Підготовча</p>
+          <button>
+            <svg class="sort-select__svg sort-select__svg">
+              <use href="./svg/close.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="container-m">
+          <h2 class="school__tier school__tier-title">перші класи</h2>
+          <include src="./components/card-group.html"></include>
+        </div>
+      </div>
       <div class="container container-m container-w">
-        <ul class="main__table table">
-          <li class="table__item">
-            <include src="./main-page-section/primary-school.html"></include>
-          </li>
-          <li class="table__item">
-            <include src="./main-page-section/secondary-school.html"></include>
-          </li>
-          <li class="table__item">
-            <include src="./main-page-section/high-school.html"></include>
-          </li>
-        </ul>
+        <h2 class="school__tier school__tier-title">перші класи</h2>
+        <include src="./components/card-vactination.html"></include>
       </div>
     </main>
     <include src="./partials/modal.html"></include>
     <include src="./partials/login-page.html"></include>
+    <include src="./partials/redact.html"></include>
     <script src="./index.js"></script>
   </body>
 </html>
