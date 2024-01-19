@@ -1,33 +1,58 @@
-<div class="redact__container">
-    <div class="redact__block">
-        <div class="reduct__block-name">
-            <p class="reduct__block-title">ПІБ учня</p>
-            <input type="name" class="redact__input-name">
-        </div>
-        <div class="reduct__block-birthday">
-            <p class="reduct__block-title">Дата народження</p>
-            <input type="date" name="birthday-date" id="birthday-data">
-        </div>
-        <div class="reduct__block-group">
-            <p class="reduct__block-title">Група здоров'я</p>
-            <select name="" id="redact__select-group">
-                <option value="basic"></option>
-                <option value="preparatory"></option>
-                <option value="special"></option>
-                <option value="liberated"></option>
-            </select>
-        </div>
-        <div class="reduct__block-term">
-            <p class="reduct__block-title">Термін дії</p>
-            <input type="date" name="term-date" id="term-data">
-        </div>
-        <div class="reduct__block-vactination">
-            <p class="reduct__block-title">Щеплення</p>
-            <select name="" id="redact__select-vactination">
-                <option value="true-vac"></option>
-                <option value="false-vac"></option>
-            </select>
-        </div>
+<div class="redact__container hidden">
+  <div class="redact__blocks">
+    <svg class="redact__svg">
+      <use href="./svg/close-redact.svg#close2"></use>
+    </svg>
+    <div class="redact__block redact__blocks-name">
+      <p class="redact__blocks-title">ПІБ учня</p>
+      <input placeholder="ПІБ учня" type="name" class="redact__input" id="input-name" />
     </div>
-    <button type="submit" class="redact__submit"></button>
+    <div class="redact__block redact__blocks-birthday">
+      <p class="redact__blocks-title">Дата народження</p>
+      <input
+        type="date"
+        name="birthday-date"
+        value="2024-01-06"
+        id="birthday-data"
+        class="redact__input redact__input-date"
+      />
+    </div>
+    <div class="redact__block redact__blocks-group">
+      <p class="redact__blocks-title">Група здоров'я</p>
+      <select
+        name="redact__group"
+        id="redact__select-group"
+        class="redact__input redact__input-select"
+      >
+        <option value="basic">Основна</option>
+        <option value="preparatory">Підготовча</option>
+        <option value="special">Спеціальна</option>
+        <option value="liberated">Звільнені</option>
+      </select>
+      <button class="custom-select"></button>
+    </div>
+    <div class="redact__block redact__blocks-term">
+      <p class="redact__blocks-title">Термін дії</p>
+      <input
+        type="date"
+        name="term-date"
+        value="2024-01-06"
+        id="term-data"
+        class="redact__input redact__input-date"
+      />
+    </div>
+    <div class="redact__block redact__blocks-vactination">
+      <p class="redact__blocks-title">Щеплення</p>
+      <select
+        name=""
+        id="redact__select-vactination"
+        class="redact__input redact__input-select"
+      >
+        <option value="true-vac">Щеплений</option>
+        <option value="false-vac">Не щеплений</option>
+      </select>
+      <button class="custom-select"></button>
+    </div>
+    <button type="submit" class="redact__submit">Зберегти</button>
+  </div>
 </div>
