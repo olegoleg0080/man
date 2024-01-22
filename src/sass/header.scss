@@ -22,7 +22,7 @@ header {
   height: 24px;
 }
 .logo {
-  margin-left: 87px;
+  @include responsive(margin-left, 87, 212, 375, 745);
   color: #fff;
   font-size: 18px;
   font-weight: 700;
@@ -61,8 +61,8 @@ header {
 }
 .support{
   display: flex;
-  column-gap: 8px;
-  margin-left: 56px;
+  gap: 8px;
+  @include responsive(margin-left, 56, 156, 375, 745);
 }
 @media(max-width: 374px)  {
   .logo {
@@ -80,5 +80,28 @@ header {
   header {
     @include responsive(padding-left, 0, 16, 319, 375);
       @include responsive(padding-right, 0, 16, 319, 375);
+  }
+}
+@media (min-width: 476px){
+  svg,svg>use {
+    width: 32px;
+    height: 32px;
+  }
+  header {
+    height: 82px;
+    padding: 0 16px;
+  }
+  .header-button {
+    width: 32px;
+    height: 32px;
+  }
+  .logo {
+    margin-left: 212px;
+    font-size: 24px;
+  }
+  
+  .support{
+    gap: 24px;
+    margin-left: 156px;
   }
 }

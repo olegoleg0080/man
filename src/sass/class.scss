@@ -47,3 +47,35 @@
     line-height: 1.4;
   }
 }
+
+@media(min-width: 476px){
+  .class__card {
+    gap: 16px;
+    margin: 0;
+    margin-top: 36px;
+    
+  }
+  .card {
+    &__className-class {
+      font-size: 24px;
+    }
+    &__table-class {
+      width: 1080px;
+      padding: 24px 55px;
+      gap: 16px;
+    }
+    &__table-title-class {
+      font-size: 20px;
+    }
+    // &__table-item-class {
+    //   display: flex;
+    //   width: 770px;
+    //   align-items: center;
+    //   gap: 24px;
+    // }
+    &__table-data-class {
+      padding: 10px;
+      font-size: 20px;
+    }
+  }
+}

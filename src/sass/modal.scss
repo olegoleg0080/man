@@ -80,7 +80,7 @@
       outline: 1px solid #192599;
     }
   }
-  &__vactinayion {
+  &__vactination {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -89,5 +89,39 @@
 
     border-radius: 16px;
     background: #fff;
+  }
+}
+@media (min-width: 476px) {
+  .modal {
+    &__container {
+      background-color: #fff;
+      position: relative;
+      width: 273px;
+    }
+    &__close {
+      top: 24px;
+      right: 24px;
+    }
+    &__block {
+      padding-top: 75px;
+    }
+    &__block-title {
+      font-size: 24px;
+      display: flex;
+      width: 159px;
+      height: 54px;
+    }
+    &__group {
+      gap: 24px;
+      border-radius: 16px;
+    }
+    &__block-version {
+      font-size: 24px;
+      padding: 10px 16px;
+    }
+    &__vactination {
+      gap: 24px;
+      margin-left: 16px;
+    }
   }
 }

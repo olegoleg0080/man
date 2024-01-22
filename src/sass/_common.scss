@@ -20,7 +20,8 @@ body{
 .container{
     margin: 0 auto;
     &-w{
-        max-width: 344px;
+        @include responsive(max-width, 344, 648, 375, 744);
+        // max-width: 344px;
     }
     &-class{
         min-width: 344px;
@@ -64,4 +65,30 @@ svg{
 a{
     color: #1F2022;
     ;
+}
+@media(min-width: 476px){
+    .container{
+        margin: 0 auto;
+        &-w{
+            max-width: 648px;
+        }
+        &-class{
+            min-width: 344px;
+            padding-left: 10px;
+        }
+        &-m{
+            margin-top: 24px;
+        }
+        &-f{
+            display: flex;
+            align-items: center;
+        }
+        &-r{
+            margin-right: 0;
+        }
+        &-scroll{
+            overflow-y:visible;
+            overflow-x: scroll;
+        }
+    }
 }

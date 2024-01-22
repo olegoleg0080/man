@@ -15,7 +15,11 @@
     font-weight: 600;
     line-height: 1.4;
   }
+  &__svg,
   &__svg>use{
     stroke: #192599;
+    width: 24px;
+    height: 24px;
   }
 }
+
