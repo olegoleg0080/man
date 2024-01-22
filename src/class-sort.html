@@ -19,7 +19,7 @@
       </div>
     </header>
     <main>
-      <div class="container container-m container-r container-w">
+      <div class="container container-m container-class">
         <div class="sort-select">
           <p class="sort-select__text">Підготовча</p>
           <button>
@@ -28,19 +28,40 @@
             </svg>
           </button>
         </div>
-        <div class="container-m">
-          <h2 class="school__tier school__tier-title">перші класи</h2>
-          <include src="./components/card-group.html"></include>
-        </div>
-        <div class="container-m">
-          <h2 class="school__tier school__tier-title">другі класи</h2>
-          <include src="./components/card-group.html"></include>
+        <div class="container container-scroll">
+          <div class="container-m">
+            <h2 class="school__tier school__tier-title">перші класи</h2>
+            <div class="class-paralel">
+              <include src="./components/card-group.html"></include>
+              <include src="./components/card-group.html"></include>
+              <include src="./components/card-group.html"></include>
+              <include src="./components/card-group.html"></include>
+            </div>
+          </div>
+          <div class="container-m">
+            <h2 class="school__tier school__tier-title">другі класи</h2>
+            <div class="class-paralel">
+              <include src="./components/card-group.html"></include>
+              <include src="./components/card-group.html"></include>
+              <include src="./components/card-group.html"></include>
+              <include src="./components/card-group.html"></include>
+            </div>
+          </div>
+          <div class="container-m">
+            <h2 class="school__tier school__tier-title">треті класи</h2>
+            <div class="class-paralel">
+              <include src="./components/card-group.html"></include>
+              <include src="./components/card-group.html"></include>
+              <include src="./components/card-group.html"></include>
+              <include src="./components/card-group.html"></include>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="container container-m container-w">
+      <!-- <div class="container container-m container-w">
         <h2 class="school__tier school__tier-title">перші класи</h2>
         <include src="./components/card-vactination.html"></include>
-      </div>
+      </div> -->
     </main>
     <include src="./partials/modal.html"></include>
     <include src="./partials/login-page.html"></include>

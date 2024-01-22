@@ -26,6 +26,16 @@
   }
   &__block {
     padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    a {
+      color: #192599;
+    }
+    button:hover {
+      border-radius: 12px;
+      outline: 1px solid #192599;
+    }
   }
   &__block-title {
     color: #192599;
@@ -42,12 +52,6 @@
     flex-shrink: 0;
 
     border-radius: 12px;
-    &.classes {
-      &:hover {
-        border-radius: 12px;
-        outline: 1px solid #192599;
-      }
-    }
   }
   &__group {
     display: inline-flex;
