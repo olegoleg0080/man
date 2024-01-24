@@ -27,7 +27,7 @@
   }
   &-paralel {
     display: flex;
-    gap: 36px;
+    gap: 24px;
   }
 }
 .class-parallel {
@@ -116,6 +116,39 @@
       width: 134px;
       padding: 10px 36px;
       font-size: 32px;
+    }
+  }
+}
+@media (min-width: 745px) {
+  .school__tier-title {
+    margin-bottom: 24px;
+    font-size: 32px;
+    margin-left: 48px;
+  }
+  .table__item {
+    margin-top: 40px;
+  }
+  .class {
+    &-list {
+      padding: 60px;
+      padding-top: 60px;
+      gap: 36px;
+      &__parallel {
+        gap: 103px;
+      }
+    }
+    &-paralel {
+      display: flex;
+      gap: 103px;
+    }
+  }
+  .class-parallel {
+    &__name {
+      width: 134px;
+      padding: 10px 36px;
+
+      font-size: 48px;
+      letter-spacing: 0.4px;
     }
   }
 }

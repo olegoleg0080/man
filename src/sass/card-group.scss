@@ -7,11 +7,8 @@
 
     border-radius: 36px 36px 0px 0px;
     background: #495af5;
-    width: 331px;
+    width: 455px;
     color: #fff;
-    &-group {
-      width: 455px;
-    }
   }
   &__class {
     color: #fff;
@@ -37,12 +34,9 @@
   }
   &__table {
     padding: 16px;
-    width: 331px;
+    width: 455px;
     background: #fff;
     box-shadow: 6px 6px 36px 0px rgba(213, 212, 212, 0.08);
-    &-group {
-      width: 455px;
-    }
   }
   &__table-title {
     color: #161616;
@@ -84,10 +78,7 @@
   .card {
     &__header {
       padding: 10px 30px;
-      width: 581px;
-      &-group {
-        width: 641px;
-      }
+      width: 641px;
     }
     &__class {
       font-size: 24px;
@@ -98,9 +89,6 @@
     &__table {
       padding: 30px;
       width: 641px;
-      &-group {
-        width: 641px;
-      }
     }
     &__table-title {
       font-size: 20px;
@@ -113,3 +101,32 @@
     }
   }
 }
+@media (min-width: 745px){
+  .card {
+    &__header {
+      border-radius: 36px 36px 0px 0px;
+      width: 768px;
+    }
+    &__class {
+      font-size: 36px;
+    }
+    &__download-text {
+      font-size: 20px;
+    }
+    &__table {
+      padding: 30px;
+      width: 768px;
+    }
+    &__table-title {
+      font-size: 24px;
+    }
+    &__table-data {
+      font-size: 24px;
+    }
+    tr {
+      width: 726px;
+      gap: 24px;
+    }
+  }
+}
+

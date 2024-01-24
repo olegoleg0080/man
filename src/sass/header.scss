@@ -1,11 +1,13 @@
-svg,svg>use {
+svg,
+svg > use {
   width: 24px;
   height: 24px;
 }
 .active {
   border-radius: 12px;
   background: #fff;
-  &>h1,p{
+  & > h1,
+  p {
     color: #192599;
   }
 }
@@ -30,8 +32,10 @@ header {
 }
 
 .sort {
-  display: inline-flex;
-  align-items: flex-start;
+  // display: inline-flex;
+  align-items: center;
+  display: none;
+  // align-items: flex-start;
   gap: 36px;
   &__class {
     display: flex;
@@ -59,12 +63,12 @@ header {
     line-height: 140%;
   }
 }
-.support{
+.support {
   display: flex;
   gap: 8px;
   @include responsive(margin-left, 56, 156, 375, 745);
 }
-@media(max-width: 374px)  {
+@media (max-width: 374px) {
   .logo {
     @include responsive(margin-left, 57, 87, 319, 375);
     color: #fff;
@@ -72,18 +76,19 @@ header {
     font-weight: 700;
     line-height: 1.4;
   }
-  .support{
+  .support {
     display: flex;
     column-gap: 8px;
     @include responsive(margin-left, 26, 56, 319, 375);
   }
   header {
     @include responsive(padding-left, 0, 16, 319, 375);
-      @include responsive(padding-right, 0, 16, 319, 375);
+    @include responsive(padding-right, 0, 16, 319, 375);
   }
 }
-@media (min-width: 476px){
-  svg,svg>use {
+@media (min-width: 476px) {
+  svg,
+  svg > use {
     width: 32px;
     height: 32px;
   }
@@ -99,9 +104,80 @@ header {
     margin-left: 212px;
     font-size: 24px;
   }
-  
-  .support{
+
+  .support {
     gap: 24px;
     margin-left: 156px;
+  }
+}
+@media (min-width: 745px) {
+  .logo {
+    margin-left: 0;
+    font-size: 24px;
+  }
+  header > .container {
+    justify-content: space-between;
+  }
+  .support {
+    display: flex;
+    gap: 24px;
+    margin-left: 0;
+  }
+  .burger {
+    display: none;
+  }
+  .sort {
+    display: inline-flex;
+    margin: 0 auto;
+    &__icon {
+      width: 24px;
+      height: 24px;
+    }
+    &__modal-block {
+      display: inline-flex;
+      top: 82px;
+      position: absolute;
+      padding: 24px;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+
+      border-radius: 16px;
+      background: #192599;
+    }
+    &__modal-btn {
+      display: flex;
+      padding: 10px 24px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 32px;
+      & > a {
+        color: #fff;
+      }
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.4;
+      &:hover {
+        background: #fff;
+        & > a {
+          color: #192599;
+        }
+      }
+      text-wrap: nowrap;
+    }
+  }
+  .header {
+    &__sort-modal {
+      display: flex;
+
+      flex-direction: column;
+      position: relative;
+      overflow: visible;
+      cursor: pointer;
+    }
+  }
+  .container-clas {
+    max-width: 965px;
   }
 }

@@ -92,3 +92,32 @@ a{
         }
     }
 }
+@media(min-width: 745px){
+    .container{
+        margin: 0 auto;
+        &-w{
+            max-width: 1360px;
+            &.container-min{
+                max-width: 1280px;
+            }
+        }
+        &-class{
+            min-width: 344px;
+            padding-left: 10px;
+        }
+        &-m{
+            margin-top: 24px;
+        }
+        &-f{
+            display: flex;
+            align-items: center;
+        }
+        &-r{
+            margin-right: 0;
+        }
+        &-scroll{
+            overflow-y:visible;
+            overflow-x: scroll;
+        }
+    }
+}
