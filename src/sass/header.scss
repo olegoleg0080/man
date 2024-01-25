@@ -24,7 +24,8 @@ header {
   height: 24px;
 }
 .logo {
-  @include responsive(margin-left, 87, 212, 375, 745);
+  @include responsive(margin-left, 97, 212, 375, 746);
+  text-wrap: nowrap;
   color: #fff;
   font-size: 18px;
   font-weight: 700;
@@ -66,10 +67,10 @@ header {
 .support {
   display: flex;
   gap: 8px;
-  @include responsive(margin-left, 56, 156, 375, 745);
+  @include responsive(margin-left, 66, 156, 375, 746);
 }
 @media (max-width: 374px) {
-  .logo {
+  .logo { 
     @include responsive(margin-left, 57, 87, 319, 375);
     color: #fff;
     @include responsive(font-size, 13, 18, 319, 375);
@@ -101,13 +102,15 @@ header {
     height: 32px;
   }
   .logo {
-    margin-left: 212px;
+    @include responsive(margin-left, 87, 212, 375, 745);
+    // margin-left: 212px;
     font-size: 24px;
   }
 
   .support {
     gap: 24px;
-    margin-left: 156px;
+    @include responsive(margin-left, 56, 156, 375, 745);
+    // margin-left: 56px;
   }
 }
 @media (min-width: 745px) {
