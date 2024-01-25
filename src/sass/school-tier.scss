@@ -32,7 +32,7 @@
 }
 .class-parallel {
   &__name {
-    width: 60px;
+    max-width: 60px;
     text-wrap: nowrap;
     box-sizing: border-box;
     display: flex;
@@ -79,7 +79,7 @@
   }
   .class-parallel {
     &__name {
-      @include responsive(width, 40, 60, 319, 375);
+      @include responsive(max-width, 40, 60, 319, 375);
       @include responsive(padding-left, 16, 20, 319, 375);
       @include responsive(padding-right, 16, 20, 319, 375);
       @include responsive(padding-top, 8, 10, 319, 375);
@@ -113,7 +113,7 @@
   }
   .class-parallel {
     &__name {
-      width: 134px;
+      max-width: 134px;
       padding: 10px 36px;
       font-size: 32px;
     }
@@ -144,7 +144,7 @@
   }
   .class-parallel {
     &__name {
-      width: 134px;
+      max-width: 134px;
       padding: 10px 36px;
 
       font-size: 48px;

@@ -61,15 +61,15 @@ modalRadio2(
   refs.modalGroup,
   refs.modalVac
 );
-modalOpen(refs.modalOpen, refs.burgerModal);
-modalOpen(refs.accountBtn, refs.loginModal);
-modalClose(refs.modalClose, refs.burgerModal);
-modalClose(refs.redactClose, refs.redactContainer);
-modalCloseOut(refs.burgerModal, '.modal__container', refs.burgerModal);
-modalCloseOut(document.body, '.header__sort-modal', refs.modalGroup);
-modalCloseOut(document.body, '.header__sort-modal', refs.modalVac);
-modalCloseOut(refs.redactContainer, '.redact__blocks', refs.redactContainer);
-// ! функції які використовуються лише 1 раз або просто геморні функціх до яких я ше не дійшов
+// modalOpen(refs.modalOpen, refs.burgerModal);
+// modalOpen(refs.accountBtn, refs.loginModal);
+// // modalClose(refs.modalClose, refs.burgerModal);
+// modalClose(refs.redactClose, refs.redactContainer);
+// modalCloseOut(refs.burgerModal, '.modal__container', refs.burgerModal);
+// modalCloseOut(document.body, '.header__sort-modal', refs.modalGroup);
+// modalCloseOut(document.body, '.header__sort-modal', refs.modalVac);
+// modalCloseOut(refs.redactContainer, '.redact__blocks', refs.redactContainer);
+//! функції які використовуються лише 1 раз або просто геморні функціх до яких я ше не дійшов
 refs.containerScroll.addEventListener('click', e => {
   if (e.target.closest('tr')) {
     refs.redactContainer.classList.remove('hidden');
