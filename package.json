@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://github.com/olegoleg0080/man",
   "scripts": {
-    "start": "parcel src/*.html ",
+    "start": "parcel src/*.html npx json-server db.json",
     "build": "parcel build src/*.html --public-url /man/"
   },
   "repository": {
