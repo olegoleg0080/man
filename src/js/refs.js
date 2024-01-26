@@ -13,6 +13,4 @@ const refs = {
   modalBtnVac: document.querySelector('.sort__vaccination'),
   redactBlock: document.querySelector('.redact__blocks'),
 };
-export default {
-  refs
-}
+export default refs;

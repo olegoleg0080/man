@@ -1,11 +1,11 @@
 import refs from './refs.js';
 function modalOpen(btnName, modalBlock) {
-  if (btnName !== undefined) {
     btnName.addEventListener('click', () => {
       modalBlock.classList.remove('hidden');
       document.body.style = 'overflow: hidden';
+      console.log('o');
     });
-  }
+    console.log('oleg');
 }
 function modalClose(btnName, modalBlock) {
   if (btnName) {

@@ -7,11 +7,15 @@ apiModal.modalRadio2(
   refs.refs.modalGroup,
   refs.refs.modalVac
 );
-apiModal.modalOpen(refs.refs.modalOpen, refs.refs.burgerModal);
-apiModal.modalOpen(refs.refs.accountBtn, refs.refs.loginModal);
-apiModal.modalClose(refs.refs.modalClose, refs.refs.burgerModal);
-apiModal.modalClose(refs.refs.redactClose, refs.redactContainer);
-apiModal.modalCloseOut(refs.refs.burgerModal, '.modal__container', refs.refs.burgerModal);
-apiModal.modalCloseOut(document.body, '.header__sort-modal', refs.refs.modalGroup);
-apiModal.modalCloseOut(document.body, '.header__sort-modal', refs.refs.modalVac);
-apiModal.modalCloseOut(refs.refs.redactContainer, '.redact__blocks', refs.refs.redactContainer);
+apiModal.modalOpen(refs.modalOpen, refs.burgerModal);
+apiModal.modalOpen(refs.accountBtn, refs.loginModal);
+apiModal.modalClose(refs.modalClose, refs.burgerModal);
+apiModal.modalClose(refs.redactClose, redactContainer);
+apiModal.modalCloseOut(refs.burgerModal, '.modal__container', refs.burgerModal);
+apiModal.modalCloseOut(document.body, '.header__sort-modal', refs.modalGroup);
+apiModal.modalCloseOut(document.body, '.header__sort-modal', refs.modalVac);
+apiModal.modalCloseOut(
+  refs.redactContainer,
+  '.redact__blocks',
+  refs.redactContainer
+);
