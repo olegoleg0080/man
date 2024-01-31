@@ -5,23 +5,15 @@ html{
 body{
     position: relative;
 }
-.hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
+
 .container{
     margin: 0 auto;
     &-w{
         @include responsive(max-width, 344, 648, 375, 744);
         // max-width: 344px;
+    }
+    &-w2{
+        @include responsive(max-width, 344, 648, 375, 744);
     }
     &-class{
         min-width: 344px;
@@ -66,11 +58,15 @@ a{
     color: #1F2022;
     ;
 }
-@media(min-width: 476px){
+@media(min-width: 744px){
     .container{
         margin: 0 auto;
         &-w{
-            max-width: 648px;
+            @include responsive(max-width, 648, 1360, 745, 1440);
+            // max-width: 648px;
+        }
+        &-w2{
+            @include responsive(max-width, 648, 965, 745, 1440);
         }
         &-class{
             min-width: 344px;
@@ -92,7 +88,7 @@ a{
         }
     }
 }
-@media(min-width: 745px){
+@media(min-width: 1440px){
     .container{
         margin: 0 auto;
         &-w{
@@ -100,6 +96,9 @@ a{
             &.container-min{
                 max-width: 1280px;
             }
+        }
+        &-w2{
+            max-width: 965px;
         }
         &-class{
             min-width: 344px;

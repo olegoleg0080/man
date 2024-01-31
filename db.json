@@ -1,5 +1,628 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "classes": [
+    {
+      "paralelName": "1",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "1",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "1",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "1",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "2",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "2",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "2",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "2",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "3",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "3",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "3",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "3",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "4",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "4",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "4",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "4",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "5",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "5",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "5",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "5",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "6",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "6",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "6",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "6",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "7",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "7",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "7",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "7",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "8",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "8",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "8",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "8",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "9",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "9",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "9",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "9",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "10",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "10",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "10",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "10",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "11",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "11",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "11",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "11",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "12",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "12",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "12",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "12",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Крамар Олег Олександрович",
+          "birthday": "06.01.2009",
+          "Group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    }
+  ]
 }

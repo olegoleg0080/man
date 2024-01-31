@@ -1,11 +1,9 @@
 import refs from './refs.js';
 function modalOpen(btnName, modalBlock) {
-    btnName.addEventListener('click', () => {
-      modalBlock.classList.remove('hidden');
-      document.body.style = 'overflow: hidden';
-      console.log('o');
-    });
-    console.log('oleg');
+  btnName.addEventListener('click', () => {
+    modalBlock.classList.remove('hidden');
+    document.body.style = 'overflow: hidden';
+  });
 }
 function modalClose(btnName, modalBlock) {
   if (btnName) {
@@ -17,7 +15,7 @@ function modalClose(btnName, modalBlock) {
 }
 function modalCloseOut(btnName, className, modalBlock) {
   //? btnName при нажатті на що буде закриватися модалка
-  //? className буде перевірятися чи не надато на className
+  //? className буде перевірятися чи не нажато на className
   //? modalBlock те що буде ховатися
   if (btnName && modalBlock) {
     btnName.addEventListener('click', e => {
@@ -59,8 +57,6 @@ if (refs.containerScroll && refs.redactContainer) {
     }
   });
 }
-
-console.log('hel');
 export default {
   modalOpen,
   modalClose,

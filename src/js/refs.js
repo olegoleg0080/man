@@ -12,5 +12,11 @@ const refs = {
   modalBtnGroup: document.querySelector('.sort__group'),
   modalBtnVac: document.querySelector('.sort__vaccination'),
   redactBlock: document.querySelector('.redact__blocks'),
+  classListPrim: document.querySelector('#class-list-primary'),
+  classListSec: document.querySelector('#class-list-sec'),
+  classListHi: document.querySelector('#class-list-hi'),
+  className: document.querySelector('.class-parallel__name'),
+  cardClassName: document.querySelector('.card__className-class'),
 };
 export default refs;
+

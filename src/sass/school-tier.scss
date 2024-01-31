@@ -1,39 +1,43 @@
 .school__tier-title {
   color: #1f2022;
-  margin-bottom: 16px;
-  font-size: 16px;
+  // margin-bottom: 16px;
+  @include responsive(margin-bottom, 16, 24, 375, 744);
+  // font-size: 16px;
+  @include responsive(font-size, 16, 24, 375, 744);
   font-weight: 500;
   line-height: 1.4;
 }
 .table__item {
-  margin-top: 24px;
+  // margin-top: 24px;
+  @include responsive(margin-top, 24, 36, 375, 744);
 }
 .class {
   &-list {
     display: inline-flex;
-    padding: 16px;
-    padding-top: 32px;
+    @include responsive(padding, 16, 24, 375, 744);
+    // padding: 16px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    @include responsive(gap, 16, 36, 375, 744);
+    // gap: 16px;
     border-radius: 36px;
     background: #fff;
     box-shadow: 6px 6px 36px 0px rgba(213, 212, 212, 0.08);
-    width: 100%;
     &__parallel {
       display: flex;
       align-items: flex-start;
-      gap: 24px;
+      @include responsive(gap, 24, 21, 375, 744);
+      // gap: 24px;
     }
   }
   &-paralel {
     display: flex;
-    gap: 24px;
+    @include responsive(gap, 24, 21, 375, 744);
   }
 }
 .class-parallel {
   &__name {
-    max-width: 60px;
+    @include responsive(width, 60, 134, 375, 744);
     text-wrap: nowrap;
     box-sizing: border-box;
     display: flex;
@@ -45,19 +49,19 @@
     background: #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
     &:hover {
+      color: #fff;
       border-radius: 36px;
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
       background: #495af5;
-      & > a {
-        color: #fff;
-      }
     }
 
     color: #1f2022;
-    font-size: 18px;
+    @include responsive(font-size, 18, 32, 375, 744);
+    // font-size: 18px;
     font-weight: 700;
     line-height: 1.4;
-    letter-spacing: 0.18px;
+    @include responsive(letter-spacing, 0.18, 0.32, 375, 744);
+    // letter-spacing: 0.18px;
   }
 }
 @media (max-width: 374px) {
@@ -80,7 +84,7 @@
   }
   .class-parallel {
     &__name {
-      @include responsive(max-width, 40, 60, 319, 375);
+      @include responsive(width, 40, 60, 319, 375);
       @include responsive(padding-left, 16, 20, 319, 375);
       @include responsive(padding-right, 16, 20, 319, 375);
       @include responsive(padding-top, 8, 10, 319, 375);
@@ -94,37 +98,41 @@
     @include responsive(max-width, 260, 344, 319, 375);
   }
 }
-@media (min-width: 476px) {
+@media (min-width: 745px){
   .school__tier-title {
-    margin-bottom: 24px;
-    font-size: 24px;
+    @include responsive(margin-bottom, 24, 24, 745, 1440);
+    @include responsive(font-size, 24, 32, 745, 1440);
   }
   .table__item {
-    margin-top: 36px;
+    @include responsive(margin-top, 36, 40, 745, 1440);
   }
   .class {
     &-list {
-      padding: 24px;
-      padding-top: 48px;
-      gap: 36px;
+      @include responsive(padding, 24, 60, 745, 1440);
+      @include responsive(gap, 36, 36, 745, 1440);
       &__parallel {
-        gap: 21px;
+        @include responsive(gap, 21, 103, 745, 1440);
       }
+    }
+    &-paralel {
+      display: flex;
+      @include responsive(gap, 21, 103, 745, 1440);
     }
   }
   .class-parallel {
     &__name {
-      max-width: 134px;
+      @include responsive(width, 134, 134, 745, 1440);
       padding: 10px 36px;
-      font-size: 32px;
+      @include responsive(font-size, 32, 40, 745, 1440);
+      @include responsive(letter-spacing, 0.32, 0.40, 745, 1440);
     }
   }
 }
-@media (min-width: 745px) {
+
+@media (min-width: 1440px){
   .school__tier-title {
     margin-bottom: 24px;
-    font-size: 32px;
-    margin-left: 48px;
+    font-size: 32px
   }
   .table__item {
     margin-top: 40px;
@@ -132,24 +140,21 @@
   .class {
     &-list {
       padding: 60px;
-      padding-top: 60px;
       gap: 36px;
       &__parallel {
         gap: 103px;
       }
     }
     &-paralel {
-      display: flex;
       gap: 103px;
     }
   }
   .class-parallel {
     &__name {
-      max-width: 134px;
+      width: 134px;
       padding: 10px 36px;
-
-      font-size: 48px;
-      letter-spacing: 0.4px;
+      font-size: 40px;
+      letter-spacing: 0.40;
     }
   }
 }
