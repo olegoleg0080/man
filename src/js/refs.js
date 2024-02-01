@@ -1,4 +1,5 @@
 const refs = {
+  scroll: document.querySelector('.container-scroll'),
   modalOpen: document.querySelector('.burger'),
   burgerModal: document.querySelector('.burger-modal'),
   modalClose: document.querySelector('.modal__close'),

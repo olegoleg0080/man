@@ -48,11 +48,15 @@ header {
     align-items: center;
     gap: 8px;
   }
-  &__group {
+  &__group,
+  &__title-class {
     display: flex;
     padding: 10px 16px;
     align-items: center;
     gap: 8px;
+  }
+  &__modal-btn{
+    color: #fff;
   }
   &__vaccination {
     display: flex;
@@ -66,9 +70,7 @@ header {
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
-    & > a {
-      color: #fff;
-    }
+    color: #fff;
   }
 }
 .support {
@@ -169,17 +171,13 @@ header {
       align-items: center;
       gap: 10px;
       border-radius: 32px;
-      & > a {
-        color: #fff;
-      }
+      color: #fff;
       font-size: 24px;
       font-weight: 600;
       line-height: 1.4;
       &:hover {
         background: #fff;
-        & > a {
-          color: #192599;
-        }
+        color: #192599;
       }
       text-wrap: nowrap;
     }

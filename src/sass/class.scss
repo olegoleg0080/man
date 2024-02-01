@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  overflow-x: scroll;
   gap: 16px;
   margin: 16px;
   margin-top: 24px;
@@ -100,5 +101,10 @@
       max-width: 180px;
       font-size: 24px;
     }
+  }
+}
+@media (min-width: 1440px){
+  .class__card {
+    overflow: hidden;
   }
 }
