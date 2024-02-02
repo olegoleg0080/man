@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   console.log(parName);
   console.log(classLetter);
   
-  fetch(`${BASE_URL}classes`)
+  fetch(`${BASE_URL}`)
     .then(response => {
       return response.json();
     })

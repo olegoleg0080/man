@@ -1,6 +1,6 @@
 import refs from "./refs";
 const BASE_URL = 'https://65bce5d2b51f9b29e9328629.mockapi.io/man/man';
-fetch(`${BASE_URL}classes`)
+fetch(`${BASE_URL}`)
   .then(response => {
     return response.json();
   })
