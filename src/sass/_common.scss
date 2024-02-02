@@ -63,7 +63,7 @@ a{
     .container{
         margin: 0 auto;
         &-w{
-            @include responsive(max-width, 648, 1360, 745, 1440);
+            @include responsive(max-width, 744, 1360, 745, 1440);
             // max-width: 648px;
         }
         &-w2{

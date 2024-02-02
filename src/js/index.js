@@ -39,5 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // apiModal.modalCloseOut(document.body, '.header__sort-modal', refs.modalGroup);
   // apiModal.modalCloseOut(document.body, '.header__sort-modal', refs.modalVac);
   apiModal.modalCloseOut(refs.redactContainer,'.redact__blocks',refs.redactContainer);
+  apiModal.openRedact(refs.containerScroll, refs.redactContainer);
 
 });

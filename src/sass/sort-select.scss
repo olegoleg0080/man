@@ -1,13 +1,14 @@
 .sort-select {
   box-sizing: content-box;
-    display: flex;
-    padding: 8px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 122px;
-    border-radius: 32px;
-    border: 2px solid #192599;
+  display: flex;
+  display: none;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 144px;
+  border-radius: 32px;
+  border: 2px solid #192599;
 
   &__text {
     color: #192599;
@@ -16,10 +17,9 @@
     line-height: 1.4;
   }
   &__svg,
-  &__svg>use{
+  &__svg > use {
     stroke: #192599;
     width: 24px;
     height: 24px;
   }
 }
-

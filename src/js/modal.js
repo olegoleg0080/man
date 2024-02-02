@@ -1,4 +1,4 @@
-import refs from "./refs";
+import refs from './refs';
 function modalOpen(btnName, modalBlock) {
   btnName.addEventListener('click', () => {
     modalBlock.classList.remove('hidden');
@@ -47,19 +47,25 @@ function modalRadio2(btnName1, btnName2, modalBlock1, modalBlock2) {
     //? при натисканні одної модалки інша ховається}
   }
 }
-//! функції які використовуються лише 1 раз або просто геморні функціх до яких я ше не дійшов
-if (refs.containerScroll && refs.redactContainer) {
-  refs.containerScroll.addEventListener('click', e => {
-    if (e.target.closest('tr')) {
-      refs.redactContainer.classList.remove('hidden');
-      document.body.style = 'overflow: hidden';
-      console.log('hello');
-    }
-  });
+//! функції які використовуються лише 1 раз
+function openRedact(containerScroll, redactContainer) {
+  if (containerScroll && redactContainer) {
+    containerScroll.addEventListener('click', e => {
+      const clickedTr = e.target.closest('tr');
+
+      if (clickedTr && clickedTr.id !== 'noRedact') {
+        redactContainer.classList.remove('hidden');
+        document.body.style = 'overflow: hidden';
+        console.log('hello');
+      }
+    });
+  }
 }
+
 export default {
   modalOpen,
   modalClose,
   modalCloseOut,
   modalRadio2,
+  openRedact,
 };

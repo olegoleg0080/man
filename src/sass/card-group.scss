@@ -10,6 +10,11 @@
     width: 455px;
     color: #fff;
   }
+  &-small,
+  &-small > table,
+  &-small > div {
+    width: 600px;
+  }
   &__class {
     color: #fff;
     font-size: 20px;
@@ -101,7 +106,7 @@
     }
   }
 }
-@media (min-width: 745px){
+@media (min-width: 745px) {
   .card {
     &__header {
       border-radius: 36px 36px 0px 0px;
@@ -129,4 +134,3 @@
     }
   }
 }
-

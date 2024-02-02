@@ -1,4 +1,5 @@
 const refs = {
+  sortSelect: document.querySelector('.sort-select__text'),
   scroll: document.querySelector('.container-scroll'),
   modalOpen: document.querySelector('.burger'),
   burgerModal: document.querySelector('.burger-modal'),
@@ -19,5 +20,6 @@ const refs = {
   className: document.querySelector('.class-parallel__name'),
   cardClassName: document.querySelector('.card__className-class'),
 };
+
 export default refs;
 

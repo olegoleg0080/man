@@ -5,81 +5,376 @@
       "classLetter": "A",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Іваненко Олександра Віталіївна",
+          "birthday": "15.03.2013",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Петренко Марія Сергіївна",
+          "birthday": "20.05.2013",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Коваленко Олег Ігорович",
+          "birthday": "10.09.2012",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Григоренко Анастасія Петрівна",
+          "birthday": "05.12.2012",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Мельник Віталій Олександрович",
+          "birthday": "25.08.2012",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Кравченко Софія Михайлівна",
+          "birthday": "18.02.2013",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Євген Володимирович",
+          "birthday": "03.07.2013",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Козлова Ірина Сергіївна",
+          "birthday": "14.11.2012",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Павленко Дмитро Ігорович",
+          "birthday": "29.04.2013",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Анастасія Олександрівна",
+          "birthday": "12.08.2012",
+          "group": 4,
+          "term": "08.02.2029",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "1",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Марченко Вікторія Ігорівна",
+          "birthday": "02.01.2013",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Гончаренко Артем Сергійович",
+          "birthday": "19.06.2013",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Шевченко Юлія Миколаївна",
+          "birthday": "07.09.2012",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Литвиненко Денис Олександрович",
+          "birthday": "23.12.2012",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Гриценко Катерина Анатоліївна",
+          "birthday": "15.07.2012",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Кузьменко Олег Іванович",
+          "birthday": "09.03.2013",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Білоус Анастасія Володимирівна",
+          "birthday": "04.08.2013",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Поліщук Сергій Олександрович",
+          "birthday": "20.11.2012",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Єрмоленко Анастасія Дмитрівна",
+          "birthday": "01.05.2013",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Лебедєва Олена Ігорівна",
+          "birthday": "13.09.2012",
+          "group": 4,
+          "term": "08.02.2029",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "1",
+      "classLetter": "В",
+      "students": [
+        {
+          "name": "Кравчук Максим Олександрович",
+          "birthday": "03.02.2013",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Максименко Ірина Станіславівна",
+          "birthday": "18.07.2013",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Сорокіна Юлія Андріївна",
+          "birthday": "09.10.2012",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Антонов Станіслав Володимирович",
+          "birthday": "24.01.2013",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Мірошниченко Анастасія Михайлівна",
+          "birthday": "08.06.2012",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Борисенко Дмитро Олександрович",
+          "birthday": "22.11.2012",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Шаповалова Ксенія Віталіївна",
+          "birthday": "05.04.2013",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Мазур Олександр Сергійович",
+          "birthday": "19.08.2012",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Приходько Ірина Петрівна",
+          "birthday": "02.01.2013",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Литвинов Іван Андрійович",
+          "birthday": "16.05.2012",
+          "group": 4,
+          "term": "08.02.2029",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "1",
+      "classLetter": "Г",
+      "students": [
+        {
+          "name": "Шевчук Катерина Володимирівна",
+          "birthday": "21.09.2013",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Панасенко Олег Сергійович",
+          "birthday": "07.02.2013",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Кириленко Анастасія Ігорівна",
+          "birthday": "25.05.2012",
+          "group": 1,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Семененко Олександр Петрович",
+          "birthday": "09.10.2012",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Денисенко Олена Василівна",
+          "birthday": "02.03.2013",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Попов Ігор Віталійович",
+          "birthday": "18.08.2012",
+          "group": 2,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Білецький Андрій Миколайович",
+          "birthday": "03.01.2013",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": false
+        },
+        {
+          "name": "Ігнатьєва Олена Олександрівна",
+          "birthday": "16.06.2012",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Кучеренко Артем Ігорович",
+          "birthday": "30.11.2012",
+          "group": 3,
+          "term": "08.02.2029",
+          "vaccination": true
+        },
+        {
+          "name": "Бондарчук Ірина Вікторівна",
+          "birthday": "14.04.2013",
+          "group": 4,
+          "term": "08.02.2029",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "2",
+      "classLetter": "A",
+      "students": [
+        {
+          "name": "Кузьмін Михайло Олександрович",
+          "birthday": "11.03.2011",
           "group": 1,
           "term": "08.02.2028",
           "vaccination": true
         },
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Омельченко Лілія Сергіївна",
+          "birthday": "26.05.2011",
           "group": 1,
           "term": "08.02.2028",
           "vaccination": false
-        }
-      ]
-    },
-    {
-      "paralelName": "1",
-      "classLetter": "Б",
-      "students": [
+        },
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Марчук Олег Ігорович",
+          "birthday": "16.09.2010",
           "group": 1,
           "term": "08.02.2028",
           "vaccination": true
-        }
-      ]
-    },
-    {
-      "paralelName": "1",
-      "classLetter": "В",
-      "students": [
+        },
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
-          "group": 1,
+          "name": "Демченко Анна Петрівна",
+          "birthday": "08.12.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ковальчук Віталій Олександрович",
+          "birthday": "22.03.2011",
+          "group": 2,
           "term": "08.02.2028",
           "vaccination": true
-        }
-      ]
-    },
-    {
-      "paralelName": "1",
-      "classLetter": "Г",
-      "students": [
+        },
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
-          "group": 1,
+          "name": "Григоренко Анастасія Василівна",
+          "birthday": "07.07.2010",
+          "group": 2,
           "term": "08.02.2028",
           "vaccination": true
-        }
-      ]
-    },
-    {
-      "paralelName": "2",
-      "classLetter": "A",
-      "students": [
+        },
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
-          "group": 1,
+          "name": "Білий Сергій Вікторович",
+          "birthday": "18.10.2010",
+          "group": 3,
           "term": "08.02.2028",
           "vaccination": true
-        }
-      ]
-    },
-    {
-      "paralelName": "2",
-      "classLetter": "Б",
-      "students": [
+        },
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
-          "group": 1,
+          "name": "Іванова Анна Артемівна",
+          "birthday": "02.02.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Федоров Ігор Миколайович",
+          "birthday": "17.06.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Лисенко Катерина Павлівна",
+          "birthday": "30.11.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -87,12 +382,151 @@
     },
     {
       "paralelName": "2",
+      "classLetter": "Б",
+      "students": [
+        {
+          "name": "Максименко Владислав Ігорович",
+          "birthday": "13.04.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Нікітіна Олена Василівна",
+          "birthday": "29.07.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Бойко Ігор Валерійович",
+          "birthday": "12.12.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Гринь Людмила Анатоліївна",
+          "birthday": "26.03.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Коваленко Денис Олександрович",
+          "birthday": "08.08.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Захарова Ірина Миколаївна",
+          "birthday": "22.12.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Білоус Віктор Михайлович",
+          "birthday": "05.05.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалевська Анастасія Ігорівна",
+          "birthday": "20.09.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Тимченко Артем Олексійович",
+          "birthday": "04.02.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Демченко Ліза Олексіївна",
+          "birthday": "18.06.2010",
+          "group": 4,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+    {
+      "paralelName": "2",
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -103,9 +537,72 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -113,12 +610,75 @@
     },
     {
       "paralelName": "3",
-      "classLetter": "A",
+      "classLetter": "А",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -129,9 +689,72 @@
       "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -142,9 +765,72 @@
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -155,9 +841,72 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -165,12 +914,75 @@
     },
     {
       "paralelName": "4",
-      "classLetter": "A",
+      "classLetter": "А",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -181,9 +993,72 @@
       "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -194,9 +1069,72 @@
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -207,9 +1145,72 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -217,12 +1218,75 @@
     },
     {
       "paralelName": "5",
-      "classLetter": "A",
+      "classLetter": "А",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -233,9 +1297,72 @@
       "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -246,9 +1373,72 @@
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -259,9 +1449,72 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -269,12 +1522,75 @@
     },
     {
       "paralelName": "6",
-      "classLetter": "A",
+      "classLetter": "А",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -285,9 +1601,72 @@
       "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -298,9 +1677,72 @@
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -311,9 +1753,149 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
+          "term": "08.02.2028",
+          "vaccination": true
+        }
+      ]
+    },
+
+    {
+      "paralelName": "7",
+      "classLetter": "А",
+      "students": [
+        {
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -321,12 +1903,75 @@
     },
     {
       "paralelName": "7",
-      "classLetter": "A",
+      "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -334,12 +1979,75 @@
     },
     {
       "paralelName": "7",
-      "classLetter": "Б",
+      "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -347,25 +2055,75 @@
     },
     {
       "paralelName": "7",
-      "classLetter": "В",
-      "students": [
-        {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
-          "group": 1,
-          "term": "08.02.2028",
-          "vaccination": true
-        }
-      ]
-    },
-    {
-      "paralelName": "7",
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -373,12 +2131,75 @@
     },
     {
       "paralelName": "8",
-      "classLetter": "A",
+      "classLetter": "А",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -389,9 +2210,72 @@
       "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -402,9 +2286,72 @@
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -415,9 +2362,72 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -425,12 +2435,75 @@
     },
     {
       "paralelName": "9",
-      "classLetter": "A",
+      "classLetter": "А",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -441,9 +2514,72 @@
       "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -454,9 +2590,72 @@
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -467,9 +2666,72 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -477,12 +2739,75 @@
     },
     {
       "paralelName": "10",
-      "classLetter": "A",
+      "classLetter": "А",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -493,9 +2818,72 @@
       "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -506,9 +2894,72 @@
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -519,9 +2970,72 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -529,12 +3043,75 @@
     },
     {
       "paralelName": "11",
-      "classLetter": "A",
+      "classLetter": "А",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -545,9 +3122,72 @@
       "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -558,9 +3198,72 @@
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -571,9 +3274,72 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -581,12 +3347,75 @@
     },
     {
       "paralelName": "12",
-      "classLetter": "A",
+      "classLetter": "А",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -597,9 +3426,72 @@
       "classLetter": "Б",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -610,9 +3502,72 @@
       "classLetter": "В",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
@@ -623,9 +3578,72 @@
       "classLetter": "Г",
       "students": [
         {
-          "name": "Крамар Олег Олександрович",
-          "birthday": "06.01.2009",
+          "name": "Третьяков Станіслав Юрійович",
+          "birthday": "03.12.2010",
           "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Мельник Олена Леонідівна",
+          "birthday": "17.05.2011",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Козлов Владислав Віталійович",
+          "birthday": "30.09.2010",
+          "group": 1,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Сидоренко Марія Володимирівна",
+          "birthday": "14.02.2011",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Ємець Дмитро Олегович",
+          "birthday": "29.06.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Бондаренко Анастасія Андріївна",
+          "birthday": "12.11.2010",
+          "group": 2,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Шевченко Максим Ігорович",
+          "birthday": "26.04.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Ковалев Ігор Сергійович",
+          "birthday": "10.08.2010",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": true
+        },
+        {
+          "name": "Попова Вікторія Михайлівна",
+          "birthday": "24.01.2011",
+          "group": 3,
+          "term": "08.02.2028",
+          "vaccination": false
+        },
+        {
+          "name": "Гончар Артем Олегович",
+          "birthday": "08.06.2010",
+          "group": 4,
           "term": "08.02.2028",
           "vaccination": true
         }
