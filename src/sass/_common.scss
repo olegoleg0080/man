@@ -1,38 +1,40 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
-html{
-    width: 100%;
+html {
+  width: 100%;
 }
-body{
-    position: relative;
+body {
+  position: relative;
 }
 
-.container{
-    margin: 0 auto;
-    &-w{
-        @include responsive(max-width, 344, 648, 375, 744);
-        // max-width: 344px;
-    }
-    &-w2{
-        @include responsive(max-width, 344, 648, 375, 744);
-    }
-    &-class{
-        min-width: 344px;
-        padding-left: 10px;
-    }
-    &-m{
-        margin-top: 24px;
-    }
-    &-f{
-        display: flex;
-        align-items: center;
-    }
-    &-r{
-        margin-right: 0;
-    }
-    &-scroll{
-        overflow-y:visible;
-        overflow-x: scroll;
-    }
+.container {
+  width: 100%;
+  margin: 0 auto;
+  &-w {
+    @include responsive(max-width, 344, 648, 375, 744);
+    // max-width: 344px;
+  }
+  &-w2 {
+    @include responsive(max-width, 344, 648, 375, 744);
+  }
+  &-class {
+    min-width: 344px;
+    max-width: 1360px;
+    padding-left: 10px;
+  }
+  &-m {
+    margin-top: 24px;
+  }
+  &-f {
+    display: flex;
+    align-items: center;
+  }
+  &-r {
+    margin-right: 0;
+  }
+  &-scroll {
+    overflow-y: visible;
+    overflow-x: scroll;
+  }
 }
 h1,
 h2,
@@ -52,72 +54,71 @@ input,
 select {
   font-family: Manrope;
 }
-svg{
-    display: block;
+svg {
+  display: block;
 }
-a{
-    color: #1F2022;
-    ;
+a {
+  color: #1f2022;
 }
-@media(min-width: 744px){
-    .container{
-        margin: 0 auto;
-        &-w{
-            @include responsive(max-width, 744, 1360, 745, 1440);
-            // max-width: 648px;
-        }
-        &-w2{
-            @include responsive(max-width, 648, 965, 745, 1440);
-        }
-        &-class{
-            min-width: 344px;
-            padding-left: 10px;
-        }
-        &-m{
-            margin-top: 24px;
-        }
-        &-f{
-            display: flex;
-            align-items: center;
-        }
-        &-r{
-            margin-right: 0;
-        }
-        &-scroll{
-            overflow-y:visible;
-            overflow-x: scroll;
-        }
+@media (min-width: 744px) {
+  .container {
+    margin: 0 auto;
+    &-w {
+      @include responsive(max-width, 744, 1360, 745, 1440);
+      // max-width: 648px;
     }
-}
-@media(min-width: 1440px){
-    .container{
-        margin: 0 auto;
-        &-w{
-            max-width: 1360px;
-            &.container-min{
-                max-width: 1280px;
-            }
-        }
-        &-w2{
-            max-width: 965px;
-        }
-        &-class{
-            min-width: 344px;
-            padding-left: 10px;
-        }
-        &-m{
-            margin-top: 24px;
-        }
-        &-f{
-            display: flex;
-            align-items: center;
-        }
-        &-r{
-            margin-right: 0;
-        }
-        &-scroll{
-            overflow-y:visible;
-            overflow-x: scroll;
-        }
+    &-w2 {
+      @include responsive(max-width, 648, 965, 745, 1440);
     }
+    &-class {
+      min-width: 344px;
+      padding-left: 10px;
+    }
+    &-m {
+      margin-top: 24px;
+    }
+    &-f {
+      display: flex;
+      align-items: center;
+    }
+    &-r {
+      margin-right: 0;
+    }
+    &-scroll {
+      overflow-y: visible;
+      overflow-x: scroll;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    margin: 0 auto;
+    &-w {
+      max-width: 1360px;
+      &.container-min {
+        max-width: 1280px;
+      }
+    }
+    &-w2 {
+      max-width: 965px;
+    }
+    &-class {
+      min-width: 344px;
+      padding-left: 10px;
+    }
+    &-m {
+      margin-top: 24px;
+    }
+    &-f {
+      display: flex;
+      align-items: center;
+    }
+    &-r {
+      margin-right: 0;
+    }
+    &-scroll {
+      overflow-y: visible;
+      overflow-x: scroll;
+    }
+  }
 }
