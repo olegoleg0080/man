@@ -22,7 +22,7 @@ const refs = {
   redactDateInput: document.querySelector('.redact__input-date'),
   redactDateBlock: document.querySelector('.redact-date'),
   loginSub: document.querySelector('.login__submit'),
-  
+  redactSub: document.querySelector('.redact__submit'),
 }
 export default refs;
 

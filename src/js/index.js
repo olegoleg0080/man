@@ -100,11 +100,12 @@ document.addEventListener('DOMContentLoaded', () => {
     refs.modalGroup,
     refs.modalVac
   );
+  apiModal.modalClose(refs.redactSub, refs.redactBlock);
+
   apiModal.modalOpen(refs.accountBtn, refs.loginModal);
   apiModal.modalClose(refs.loginSub, refs.loginModal);
   apiModal.modalOpen(refs.modalOpen, refs.burgerModal);
   apiModal.modalOpen(refs.redactDateInput, refs.redactDateBlock);
-
   apiModal.modalClose(refs.modalClose, refs.burgerModal);
   apiModal.modalClose(refs.redactClose, refs.redactContainer);
   apiModal.modalCloseOut(

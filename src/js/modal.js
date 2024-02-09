@@ -171,7 +171,7 @@ function openRedact(containerScroll, redactContainer) {
 
     
 
-    <button type="submit" class="redact__submit">Зберегти</button>
+    <button type="button" class="redact__submit">Зберегти</button>
   </div>
 `;
         redactContainer.classList.remove('hidden');
@@ -180,6 +180,7 @@ function openRedact(containerScroll, redactContainer) {
       }
     });
   }
+  
 }
 
 export default {
