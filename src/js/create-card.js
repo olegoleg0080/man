@@ -23,7 +23,7 @@ fetch(`${BASE_URL}`)
   })
   .catch(error => {
     console.error('Error:', error);
-    console.clear()
+    // console.clear()
   });
 let classQuantity = 0;
 let classParalelsQuantity = 1;

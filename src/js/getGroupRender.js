@@ -3,7 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const BASE_URL = 'https://65bce5d2b51f9b29e9328629.mockapi.io/man/man';
   const urlParams = new URLSearchParams(window.location.search);
   const group = urlParams.get('group');
-  const vac = urlParams.get('vactination');
+  let vac;
+  if (urlParams.get('vactination') === 'true') {
+  vac = true
+  } else vac = false;
   let className;
   let cardParalel;
   fetch(`${BASE_URL}`)
@@ -231,7 +234,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 default:
                   break;
               }
-
               let card;
               if (type == 0) {
                 if (Number(group) == e.group) {
@@ -245,14 +247,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 } else return;
               }
               if (type == 1) {
-                if (Boolean(vac) === e.vaccination) {
+                if (vac === e.vaccination) {
                   card = `
                 <tr class="card__table-item">
                     <td id="table-data-id" class="card__table-data">${num}</td>
-                    <td id="table-data-name" class="card__table-data">
-                      ${dataName}
-                    </td>
-                    <td id="table-data-group" class="card__table-data card__table-data-svg">${dataVactination}</td>
+                    <td id="table-data-name" class="card__table-data">${dataName}</td>
+                    <td id="table-data-vactination" class="card__table-data card__table-data-svg">${dataVactination}</td>
                   </tr>
                 `;
                 } else return;

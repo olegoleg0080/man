@@ -19,7 +19,10 @@ const refs = {
   classListHi: document.querySelector('#class-list-hi'),
   className: document.querySelector('.class-parallel__name'),
   cardClassName: document.querySelector('.card__className-class'),
-};
-
+  redactDateInput: document.querySelector('.redact__input-date'),
+  redactDateBlock: document.querySelector('.redact-date'),
+  loginSub: document.querySelector('.login__submit'),
+  
+}
 export default refs;
 

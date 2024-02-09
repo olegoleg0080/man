@@ -1,3 +1,4 @@
+
 <div class="redact__container hidden">
   <div class="redact__blocks">
     <button class="redact__close">
@@ -7,12 +8,16 @@
     </button>
     <div class="redact__block redact__blocks-name">
       <p class="redact__blocks-title">ПІБ учня</p>
-      <input placeholder="ПІБ учня" type="name" class="redact__input" id="input-name" />
+      <input
+        placeholder="Відбулася помилка"
+        type="name"
+        class="redact__input"
+        id="input-name"
+      />
     </div>
     <div class="redact__block redact__blocks-birthday">
       <p class="redact__blocks-title">Дата народження</p>
       <input
-      
         type="date"
         name="birthday-date"
         value="2024-01-06"
@@ -37,13 +42,13 @@
     <div class="redact__block redact__blocks-term">
       <p class="redact__blocks-title">Термін дії</p>
       <input
-
         type="date"
         name="term-date"
         value="2024-01-06"
         id="term-data"
         class="redact__input redact__input-date"
       />
+
     </div>
     <div class="redact__block redact__blocks-vactination">
       <p class="redact__blocks-title">Щеплення</p>
@@ -58,6 +63,5 @@
       <button class="custom-select"></button>
     </div>
     <button type="submit" class="redact__submit">Зберегти</button>
-    <include src="./components/calendar.html"></include>
   </div>
 </div>

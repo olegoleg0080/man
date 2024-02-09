@@ -7,10 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Itim&family=Lato&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   </head>
   <body>
     <header>
@@ -19,10 +28,10 @@
       </div>
     </header>
     <main>
-      <div class="container container-w container-scroll  container-min">
-        <div class="class__card card ">
+      <div class="container container-w container-scroll container-min">
+        <div class="class__card card">
           <h2 class="card__className-class">клас</h2>
-          <table class="card__table-class " >
+          <table class="card__table-class">
             <tbody>
               <tr id="noRedact">
                 <th class="card__table-title-class">№</th>
@@ -41,6 +50,5 @@
     <include src="./partials/login-page.html"></include>
     <include src="./partials/redact.html"></include>
     <script type="module" src="./js/index.js"></script>
-    
   </body>
 </html>

@@ -11,6 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./sass/index.scss" />
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> -->
   </head>
   <body>
     <header>
@@ -19,7 +25,7 @@
       </div>
     </header>
     <main class="main">
-      <div class=" container container-m container-clas container-w2">
+      <div class="container container-m container-clas container-w2">
         <ul class="main__table table">
           <li class="table__item">
             <include src="./main-page-section/primary-school.html"></include>
@@ -33,8 +39,16 @@
         </ul>
       </div>
     </main>
+    <!-- <input type="date" name="date" id="inputTestDate" />
+    <script>
+      flatpickr('#inputTestDate', {
+        enableTime: true,
+        dateFormat: 'Y-m-d H:i',
+      });
+    </script> -->
     <include src="./partials/modal.html"></include>
     <include src="./partials/login-page.html"></include>
+    <!-- <include src="./components/calendar.html"></include> -->
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

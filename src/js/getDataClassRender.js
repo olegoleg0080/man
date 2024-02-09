@@ -5,8 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const parName = urlParams.get('parName');
   const classLetter = urlParams.get('classLetter');
   let num = 1;
-  console.log(parName);
-  console.log(classLetter);
   
   fetch(`${BASE_URL}`)
     .then(response => {
