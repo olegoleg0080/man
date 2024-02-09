@@ -71,7 +71,7 @@ function openRedact(containerScroll, redactContainer) {
           byrthdayShablon = `<div class="redact__block redact__blocks-birthday">
         <p class="redact__blocks-title">Дата народження</p>
         <input
-        readonly
+        
           type="date"
           name="birthday-date"
           value="${dataDate.innerHTML.split('.').reverse().join('-')}"
@@ -115,7 +115,7 @@ function openRedact(containerScroll, redactContainer) {
       <div class="redact__block redact__blocks-term">
       <p class="redact__blocks-title">Термін дії</p>
       <input
-      readonly
+      
         type="date"
         name="term-date"
         value="${dataTerm.innerHTML.split('.').reverse().join('-')}"
